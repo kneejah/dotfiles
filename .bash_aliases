@@ -17,7 +17,7 @@ if [ -f ~/.git-prompt/git-prompt.sh ]; then
 fi
 
 # start ssh-agent
-if [ -z "$SSH_AUTH_SOCK" ] ; then
+if [ -z "$SSH_AUTH_SOCK" ]; then
   eval $(ssh-agent) > /dev/null
 fi
 

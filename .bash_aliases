@@ -7,6 +7,9 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -lah'
 
+# other aliases
+alias git_clean="git gc --prune --aggressive"
+
 # https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
 if [ -f ~/.git-prompt/git-prompt.sh ]; then
   . ~/.git-prompt/git-prompt.sh
